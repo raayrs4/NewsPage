@@ -1,27 +1,28 @@
-import { Container, Menu } from "./styles"
-
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
+
+import { Container } from "./styles"
+import { Section } from "../Section"
 
 export function Footer() {
   return (
     <Container>
-      <p>
-        <span>SIGA-NOS</span>
-      </p>
-
-      <Menu>
+      <div className="ComercialInfos"> 
+        <h3>Comercial</h3>
+        <p>
+        (82) 3333.3333 <br/>
+        comercial@newspage.com
+        </p>
+      </div>
+  
+      <Section>
+        <h3>SIGA-NOS</h3>
+        
         <ul>
-          <li>
-            <FaFacebook/>
-          </li>
-          <li>
-            <FaInstagram/>
-          </li>
-          <li>
-            <FaYoutube/>
-          </li>
+          <li><FaFacebook/></li>
+          <li><FaInstagram/></li>
+          <li><FaYoutube/></li>
         </ul>
-      </Menu>
+      </Section>
     </Container>
   )
 }

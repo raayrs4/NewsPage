@@ -1,4 +1,5 @@
 import { Container, Logo } from "./styles"
+import { Button } from "../Button"
 
 export function Header() {
   return (
@@ -13,6 +14,9 @@ export function Header() {
           <span>Bem-vindo</span>
         </div>
       </Logo>
+
+      <Button title="Login">
+      </Button>
     </Container>
   )
 }

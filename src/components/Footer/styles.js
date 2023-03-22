@@ -1,37 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-
   grid-area: footer;
 
   height: 150px;
   width: 100%;
+  padding: 30px;
+  gap: 100px;
 
   display: flex;
-  flex-direction: column;
-  background: ${({ theme }) => theme.COLORS.BLUE_200};
-  color: white;
-
   text-align: center;
   justify-content: center;
-`
-
-export const Menu = styled.ul`
-  display: flex;
-  justify-content: center;
+  align-items: center;
+ 
+  background: ${({ theme }) => theme.COLORS.BLUE_200};
+  color: white;
   
-  > ul {
-    display: flex;
-    list-style-type: none;
-    gap: 15px;
-    margin-top: 25px;
-  }
-  
-  > li {
-    margin: 4px;
-  }
+  .ComercialInfos {
+    box-sizing: border-box;
 
-  > li:hover {
-    color: #FFBB33;
+    > p {
+      margin-top: 10px;
+      line-height: 25px;
+    }
   }
 `

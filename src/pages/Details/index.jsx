@@ -13,7 +13,8 @@ export function Details() {
 
         </Content>
       </main>
-      <Footer/>
+      <Footer>
+      </Footer>
     </Container>
   )
 }

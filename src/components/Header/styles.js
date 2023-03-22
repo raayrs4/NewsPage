@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-
   height: 200px;
   width: 100%;
 
@@ -14,7 +13,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
 
-  padding: 0 80px;
+  padding: 0px 50px 0 80px;
 `
 
 export const Logo = styled.div`
@@ -22,7 +21,6 @@ export const Logo = styled.div`
   align-items: center;
 
   > img {
-    width: 180px;
     height: 180px;
     border-radius: 50%;
 
@@ -36,7 +34,7 @@ export const Logo = styled.div`
   }
 
   span {
-    font-size: 14px;
+    font-size: 20px;
     color: ${({ theme }) => theme.COLORS.GRAY};
   }
 `

@@ -15,7 +15,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
 
-  padding: 0 80px;
+  padding: 0 80px 10px;
 `
 
 export const Logo = styled.div`

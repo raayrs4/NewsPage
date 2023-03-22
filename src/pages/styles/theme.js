@@ -5,7 +5,7 @@ export default {
     
     GRAY: "#999591",
 
-    WHITE: "000000",
+    WHITE: "#FFFFFF",
     
     BLUE_100: "#A8DADC",
     BLUE_200: "#457B9D",

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 200px;
+  height: 20rem;
   width: 100%;
 
   border-bottom-width: 1px;
@@ -23,7 +23,6 @@ export const Logo = styled.div`
   > img {
     height: 180px;
     border-radius: 50%;
-
   }
 
   > div {
@@ -34,7 +33,7 @@ export const Logo = styled.div`
   }
 
   span {
-    font-size: 20px;
+    font-size: 2rem;
     color: ${({ theme }) => theme.COLORS.GRAY};
   }
 `

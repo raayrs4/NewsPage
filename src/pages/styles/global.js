@@ -7,9 +7,13 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    font-size: 62.5%;
+  }
+
   body, input, button, textarea {
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     outline: none;
   }
 

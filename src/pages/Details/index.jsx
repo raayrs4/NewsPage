@@ -1,6 +1,7 @@
-import { Container, Content} from "./styles.js"
+import { Container} from "./styles.js"
 import { Header } from "../../components/Header"
 import { Footer } from "../../components/Footer"
+import { Page } from "../../components/Page"
 
 export function Details() {
   return(
@@ -8,11 +9,9 @@ export function Details() {
       <Header>
       </Header>
 
-      <main>
-        <Content>
+      <Page>
+      </Page>
 
-        </Content>
-      </main>
       <Footer>
       </Footer>
     </Container>
